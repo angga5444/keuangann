@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Keuangan Pintar — Kalkulator & Dashboard</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="assets/css/style.css" rel="stylesheet" />
+  </head>
+  <body class="bg-body-secondary">
+
+    <nav
+      class="navbar navbar-expand-lg navbar-dark bg-primary shadow-sm sticky-top"
+    >
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="index.html">💰 Keuangan Pintar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#nav"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="nav" class="collapse navbar-collapse">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="diskon.html">Kalkulator Diskon</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="keuangan.html">Kalkulator Tabungan</a>
+            </li>
+          </ul>
+          <div class="d-flex align-items-center gap-2">
+            <button
+              id="themeToggle"
+              class="btn btn-outline-light btn-sm"
+              type="button"
+            >
+              🌙 Mode Gelap
+            </button>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="py-5 bg-gradient-primary text-white">
+      <div class="container">
+        <div class="row align-items-center g-4">
+          <div class="col-lg-7">
+            <h1 class="display-5 fw-bold mb-3">
+              Atur Keuangan Jadi Lebih Mudah
+            </h1>
+            <p class="lead mb-4">
+              Hitung diskon, rencana tabungan, dan simpan riwayat perhitunganmu.
+              Visualisasi hasil dengan grafik interaktif.
+            </p>
+            <div class="d-flex gap-2">
+              <a class="btn btn-light btn-lg" href="diskon.html"
+                >Mulai dari Diskon</a
+              >
+              <a class="btn btn-outline-light btn-lg" href="keuangan.html"
+                >Rencana Tabungan</a
+              >
+            </div>
+          </div>
+          <div class="col-lg-5">
+            <div class="card shadow-lg border-0">
+              <div class="card-body">
+                <h5 class="card-title">Tips Keuangan Hari Ini</h5>
+                <p id="tipsHarian" class="mb-0">...</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5">
+      <div class="container">
+        <div class="row g-4">
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">🧮 Kalkulator Praktis</h5>
+                <p class="card-text">
+                  Hitung diskon & menabung dengan mudah. Hasilnya langsung
+                  dirangkum dan bisa disimpan.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">📈 Grafik Interaktif</h5>
+                <p class="card-text">
+                  Lihat perbandingan hasil tabungan dan sisa uang dalam grafik
+                  yang informatif.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card h-100 border-0 shadow-sm">
+              <div class="card-body">
+                <h5 class="card-title">🌙 Mode Gelap</h5>
+                <p class="card-text">
+                  Nyaman digunakan siang dan malam. Preferensi tema disimpan
+                  otomatis.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="text-center py-3 text-white bg-primary mt-5 shadow">
+      <p class="mb-0">© 2025 Keuangan Pintar</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+  </body>
+</html>
